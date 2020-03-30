@@ -1,0 +1,17 @@
+{
+    "name": "login/wef",
+    "description": "Cadastro e Login em php.",
+    "authors": [
+        {
+            "name": "Anderson Martins",
+            "email": "andersonmartins.eng@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Classes\\":"../classes/",
+            "Models\\":"../models/",
+            "Traits\\":"../traits/"
+        }
+}
